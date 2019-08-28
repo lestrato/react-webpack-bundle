@@ -1,0 +1,126 @@
+@import '~Vendor/css/bootstrap-4.3.1/breakpoints.scss';
+
+$color_1: transparent;
+$color_2: inherit;
+$font_family_1: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+$background_color_1: transparent;
+
+.text-monospace {
+  font-family: $font_family_1 !important;
+}
+.text-justify {
+  text-align: justify !important;
+}
+.text-wrap {
+  white-space: normal !important;
+}
+.text-nowrap {
+  white-space: nowrap !important;
+}
+.text-truncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+.text-center {
+  text-align: center !important;
+}
+.text-lowercase {
+  text-transform: lowercase !important;
+}
+.text-uppercase {
+  text-transform: uppercase !important;
+}
+.text-capitalize {
+  text-transform: capitalize !important;
+}
+.text-hide {
+  font: 0/0 a;
+  color: $color_1;
+  text-shadow: none;
+  background-color: $background_color_1;
+  border: 0;
+}
+.text-decoration-none {
+  text-decoration: none !important;
+}
+.text-break {
+  word-break: break-word !important;
+  overflow-wrap: break-word !important;
+}
+.text-reset {
+  color: $color_2 !important;
+}
+@include breakpoint(xsmall) {
+  .text-xs-left {
+    text-align: left !important;
+  }
+  .text-xs-right {
+    text-align: right !important;
+  }
+  .text-xs-center {
+    text-align: center !important;
+  }
+}
+@include breakpoint(small) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+  .text-sm-right {
+    text-align: right !important;
+  }
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
+@include breakpoint(medium) {
+  .text-md-left {
+    text-align: left !important;
+  }
+  .text-md-right {
+    text-align: right !important;
+  }
+  .text-md-center {
+    text-align: center !important;
+  }
+}
+@include breakpoint(large) {
+  .text-lg-left {
+    text-align: left !important;
+  }
+  .text-lg-right {
+    text-align: right !important;
+  }
+  .text-lg-center {
+    text-align: center !important;
+  }
+}
+@include breakpoint(xlarge) {
+  .text-xl-left {
+    text-align: left !important;
+  }
+  .text-xl-right {
+    text-align: right !important;
+  }
+  .text-xl-center {
+    text-align: center !important;
+  }
+}
+@include breakpoint(xxlarge) {
+  .text-xxl-left {
+    text-align: left !important;
+  }
+  .text-xxl-right {
+    text-align: right !important;
+  }
+  .text-xxl-center {
+    text-align: center !important;
+  }
+}
+

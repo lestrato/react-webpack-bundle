@@ -1,0 +1,12 @@
+// packages
+@import '~normalize.css/normalize.css';
+@import '~reset-css/reset.css';
+@import '~Vendor/css/fontawesome-5.8.1/css/all.css';
+@import '~Vendor/css/bootstrap-4.3.1/bootstrap.scss';
+
+// fonts
+@import "./fonts.scss";
+
+// our css
+@import "./base.scss";
+@import "./typography.scss";
